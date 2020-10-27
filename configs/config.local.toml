@@ -1,0 +1,17 @@
+# local configuration
+
+[app]
+port = 5030
+url = "localhost"
+env = "local"
+
+[database]
+name = "YOUR_DB_NAME"
+username = "YOUR_DB_USERNAME"
+password = "YOUR_DB_PASSWORD"
+host = "YOUR_DB_HOST"
+port = "YOUR_DB_PORT"
+
+[redis]
+host = "localhost"
+port = "6379"
